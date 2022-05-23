@@ -1,0 +1,62 @@
+.menu{
+	display: flex;
+	margin: 15px auto;
+	width: 88%;
+	justify-content: space-between;
+	padding: 0;
+	&__logo{
+		display: flex;
+		align-items: center;
+	}
+	&__logopic{
+		width: 40px;
+		height: 40px;
+		fill: #009a9a;
+	}
+	&__logotext{
+		text-align: center;
+		margin-left: 5px;
+	}
+	&__logoupper{
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		margin: 0;
+		font-weight: bold;
+		font-size: 23px;
+		display: flex;
+		justify-content: space-between;
+		color: #009a9a;
+		width: 95px;
+		padding: 0;
+	}
+	&__logoletters{
+		margin: 0;
+		line-height: .9;
+	}
+	&__logodown{
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		margin: 0;
+		color: #009a9a;
+		font-size: 11px;
+		font-weight: bold;
+	}
+	&__nav{
+		
+	}
+	&__list{
+		width: 305px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		list-style-type: none;
+	}
+	&__link{
+		text-decoration: none;
+		font-size: 20px;
+		color: #009a9a;
+		line-height: .8;
+	}
+	&__link:hover{
+		color: #40b5ff;
+		text-decoration: underline;
+	}
+}
