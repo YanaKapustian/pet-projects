@@ -1,0 +1,175 @@
+.properties{
+    margin-top: 80px;
+    
+  }
+  .properties__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .properties__title h1{
+    font-weight: 600;
+    font-size: 44px;
+    position: relative;
+  }
+  .properties__title a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #FE753F;
+    font-size: 16px;
+  }
+  .icon-house{
+    position: absolute;
+    left: -10px;
+    top: 0;
+  }
+  .properties__block{
+    margin-top: 30px;
+    display: flex;
+    width: 110%;
+    flex-wrap: wrap;
+  }
+  .properties__item{
+    width: 360px;
+    height: 550px;
+    background-color: white;
+    border-radius: 3% 3% 0 0;
+    box-shadow: 0 0 50px #c9c8c8;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .properties__item img{
+    width: 360px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 3% 3% 0 0;
+    object-fit: cover;
+    background-position: center;
+  }
+  .properties__info{
+    padding: 30px;
+    margin-top: -10px;
+  }
+  .properties__name h1{
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .properties__name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .properties__name svg{
+      cursor: pointer;
+  }
+  .properties__location{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .properties__location p{
+    margin: 0 0 0 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #030A1B;
+    opacity: .7;
+  }
+
+.properties{
+  &__name svg{
+    fill: #BBBBBB;
+  }
+    &__name svg:hover{
+        fill: #E61E14;
+    }
+    &__facilities{
+        margin-top: 20px;
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__rooms {
+        display: flex;
+        align-items: center;
+        span{
+        font-weight: 400;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    }
+    &__about{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        h1{
+            color: $orange;
+            font-weight: 600;
+            font-size: 22px;
+        }
+        button{
+            font-size: 16px;
+            font-weight: 500;
+            background-color: $blue;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
+.red-color{
+  fill: #E61E14;
+}
+
+.feature{
+  margin-top: 170px;
+  width: 90%;
+  &__title{
+    position: relative;
+    width: 410px;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  &__description{
+    opacity: .7;
+    font-weight: 400;
+    font-size: 16px;
+    width: 700px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  & img{
+    width: 360px;
+    border-radius: 5px;
+    margin: 0 10px 25px 10px;
+  }
+  &__block{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__item{
+    width: 280px;
+    height: 180px;
+    padding: 20px;
+  }
+  &__perk{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+  }
+  &__info{
+    opacity: .7;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
