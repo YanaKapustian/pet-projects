@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+$orange: #FE753F;
+$blue: #2E6EFF;
+
+@import "menu";
+@import "properties";
+@import "footer";
